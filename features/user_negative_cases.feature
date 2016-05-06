@@ -9,6 +9,7 @@ Feature: Negative scenarios for /users API
     Then the api call should fail
     And these response keys should have value:
       | Error | <error> |
+
     Examples:
       | name           | email              | password | error                                           |
       |                | andrei@nomail.com  | secret   | Name can't be blank                             |
