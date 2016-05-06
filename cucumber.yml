@@ -1,1 +1,2 @@
-default: -r features -f pretty -f html -o reports/report.html -f junit -o reports/ -t ~@userPositive
+default: -r features -f pretty -f html -o reports/report.html -f junit -o reports/ -t
+json: -r features -f pretty --format json --out reports/report.json -t @userPositive
