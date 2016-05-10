@@ -1,3 +1,4 @@
+@userNegative
 Feature: Negative scenarios for /users API
 
   Scenario Outline: Create new user with invalid user details
