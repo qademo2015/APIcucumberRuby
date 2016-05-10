@@ -9,7 +9,7 @@ Feature: Positive scenarios for /users API
       | password | secret                     |
     Then the api call should succeed
     And these response keys should have value:
-      | name  | Aleksei Barabash1           |
+      | name  | Aleksei Barabash          |
       | email | barabash.aleksei@gmail.com |
 
   Scenario: Logout user
